@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="keywords" content="サイトをキーワードで説明">
+	<meta name="description" content="どんなサイトかを短い文章で説明">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=1">
+	<link rel="icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" media="screen and ( min-width:769px )" href="css/style_pc.css">
+	<link rel="stylesheet" type="text/css" media="screen and ( max-width:768px )" href="css/style_sp.css">
+	<title>Okinawa Recommended Spots</title>
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.fadethis.min.js"></script>
+<!-- drawer.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+<!-- jquery & iScroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+<!-- drawer.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+<script type="text/javascript" src="js/common.js"></script>
+
+</head>
+
+<body class="drawer drawer--right">
+
+	<header>
+		<button type="button" class="drawer-toggle drawer-hamburger">
+    <span class="sr-only">toggle navigation</span>
+    <span class="drawer-hamburger-icon"></span>
+  </button>
+
+	<nav class="drawer-nav" role="navigation">
+
+		<ul class="drawe-menu">
+			<li><a class="drawer-menu-item" href="#sec1" id="menu-sec1">見出しのエリア</a></li>
+			<li><a class="drawer-menu-item" href="#sec2" id="menu-sec2">flexのエリア</a></li>
+			<li><a class="drawer-menu-item" href="#sec3" id="menu-sec3">センタリングエリア</a></li>
+			<li><a class="drawer-menu-item" href="#sec4" id="menu-sec4">制作実績</a></li>
+			<li><a class="drawer-menu-item" href="#" id="lng-ja">日本語</a></li>
+			<li><a class="drawer-menu-item" href="#" id="lng-en">English</a></li>
+		</ul>
+	</nav>
+	</header>
+
+	<article>
+		<section id="sec1">
+			<h1>Okinawa<br> Recommended Spots</h1>
+			<!-- Photo by Timo Volz on Unsplash -->
+		</section>
+
+		<section id="sec2">
+			<h1>3つのブロックエリア<br>flexとの上手な付き合い方</h1>
+
+			<!-- <button id="append">エリア追加</button>
+
+			<p>1〜10までの数字を入力してください</p>
+			<form>
+				<label for="textForm">値: </label>
+				<input type="text" id="textForm">
+				<button id="appendDivNum">指定した数のエリアを追加する</button>
+			</form>
+			<div id="attention">1〜10までの数字を入力してください</div> -->
+
+			<div class="box flex_area">
+				<div class="flex_area_padding slide-left" data-plugin-options='{"reverse": false,"speed":1500}'>
+					<h2>flexを使って左から詰めていく</h2>
+					<p>ここにflexに関してのテキストが入りますここにflexに関してのテキストが入ります ここにflexに関してのテキストが入りますここにflexに関してのテキストが入ります ここにflexに関してのテキストが入りますここにflexに関してのテキストが入ります ここにflexに関してのテキストが入りますここにflexに関してのテキストが入ります
+					</p>
+				</div>
+				<div class="flex_area_padding slide-left" data-plugin-options='{"reverse": false,"speed":1000}'>
+					<h2>flexを使って左から詰めていく</h2>
+					<p>ここにflexに関してのテキストが入りますここにflexに関してのテキストが入ります ここにflexに関してのテキストが入りますここにflexに関してのテキストが入ります ここにflexに関してのテキストが入りますここにflexに関してのテキストが入ります ここにflexに関してのテキストが入りますここにflexに関してのテキストが入ります
+					</p>
+				</div>
+				<div class="flex_area_padding slide-left" data-plugin-options='{"reverse": false,"speed":1500}'>
+					<h2>flexを使って左から詰めていく</h2>
+					<p>ここにflexに関してのテキストが入りますここにflexに関してのテキストが入ります ここにflexに関してのテキストが入りますここにflexに関してのテキストが入ります ここにflexに関してのテキストが入りますここにflexに関してのテキストが入ります ここにflexに関してのテキストが入りますここにflexに関してのテキストが入ります
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="sec3">
+			<div class="box">
+				<h1>まずはお聞かせ下さい<br>御社の"中央寄せ"について</h1>
+				<p>PC版では段落を整えるために改行したい。しかしSP版では不用意な改行を入れたくない。そんな時はbrをdisplay:noneすると良いでしょう。</p>
+				<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。</p>
+				<p>
+					テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト。<br> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+				</p>
+				<p>
+					テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト、<br> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテ、
+					<br> テキストテキストテキストテキストテキストテキストテキストテキストテキス
+					<br> テキストテキストテキストテキストテキストテキストテキストテキストテキストテキ。
+				</p>
+			</div>
+			<!-- Photo by takahiro taguchi on Unsplash -->
+		</section>
+
+		<section id="sec4">
+			<div class="box port">
+				<h1>制作実績</h1>
+				<p>ここでもdisplay:flexの練習をしましょうdisplay:flexは様々な並び替えをすることができます。<br> グリッドレイアウトと言われるCSSも最近流行っています。ここではflexを使用します。
+				</p>
+
+				<div class="portfolio slide-left" data-plugin-options='{"reverse": false}'>
+					<a href="#"><img src="img/bluesky.png" alt="あいうえお">
+						<p class="port_title">Photo by Masaaki Komori on Unsplash</p>
+					</a>
+					<!--課題4. divにクラス名を追加 flex_p-->
+					<div class="flex_p">
+						<p class="port_margin">ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。
+							ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。
+
+						</p>
+					</div>
+
+				</div>
+
+				<div class="portfolio flex_reverse slide-right" data-plugin-options='{"reverse": false}'>
+					<!--課題4. divにクラス名を追加 flex_p-->
+					<div class="flex_p">
+						<!--課題4. その他の解答pにクラス名を追加 port_margin-->
+						<p class="port_margin">ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。
+							ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。
+
+						</p>
+					</div>
+					<a href="#"><img src="img/omiyage.png" alt="かきくけこ">
+						<p class="port_title">Photo by Julie Fader on Unsplash</p>
+					</a>
+				</div>
+
+				<div class="portfolio slide-left" data-plugin-options='{"reverse": false}'>
+					<a href="#"><img src="img/doukutu.png" alt="さしすせそ">
+						<p class="port_title">Photo by Timo Volz on Unsplash</p>
+					</a>
+					<!--課題4. divにクラス名を追加 flex_p-->
+					<div class="flex_p">
+						<p class="port_margin">ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。
+							ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。ここに制作実績のテキストが入ります。
+
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</section>
+	</article>
+
+	<footer>
+		<p class="copyright">Copyright &copy; DEMO all rights reserved.</p>
+	</footer>
+
+</body>
+
+</html>
