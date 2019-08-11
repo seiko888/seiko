@@ -87,7 +87,7 @@ section h1 {
 #sec3 {
 	background: url(../img/bearch.jpg) no-repeat center center;
 	background-size: cover;
-	color: #fff;
+	color:lightskyblue;
 	background-attachment: fixed;
 }
 #sec3 p {
@@ -162,17 +162,3 @@ transform: translate(0, 0);
 	font-weight: bold;
 	display: none;
 }
-
-
-
-
-
-
-/* こちらは現在使われておりません */
-/* .bg-red {
-  background: red;
-}
-
-.bg-blue {
-	background: blue;
-} */
